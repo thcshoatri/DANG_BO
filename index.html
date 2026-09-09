@@ -31,34 +31,17 @@ body{
   text-rendering:optimizeLegibility;
 }
 header{
-  background:linear-gradient(135deg,#681511 0%,#8f211a 55%,#a52a20 100%);
-  color:#fff;
-  text-align:center;
-  padding:38px 18px 34px;
+  background:#a40000;
+  border-bottom:3px solid #d6a62f;
   box-shadow:0 8px 28px rgba(94,18,15,.20);
-  border-bottom:3px solid rgba(220,179,89,.78);
+  line-height:0;
 }
-header .top{
-  font-size:13px;
-  font-weight:600;
-  letter-spacing:2.2px;
-  text-transform:uppercase;
-  color:#f6dfaa;
-}
-header h1{
-  margin:10px 0 8px;
-  font-family:"Playfair Display","Times New Roman",serif;
-  font-size:32px;
-  line-height:1.22;
-  font-weight:700;
-  letter-spacing:.2px;
-}
-header .sub{
-  font-size:13px;
-  line-height:1.6;
-  letter-spacing:.7px;
-  color:#f9e8bb;
-  font-weight:500;
+header .banner-img{
+  display:block;
+  width:100%;
+  height:auto;
+  max-height:330px;
+  object-fit:cover;
 }
 .container{max-width:1160px;margin:30px auto;padding:0 18px 34px}
 .notice{
@@ -156,8 +139,6 @@ header .sub{
 }
 @media(max-width:760px){
   .grid{grid-template-columns:1fr}
-  header{padding:30px 16px 27px}
-  header h1{font-size:25px}
   .card{padding:23px;min-height:190px}
   .title{font-size:16px}
 }
@@ -165,9 +146,7 @@ header .sub{
 </head>
 <body>
 <header>
-  <div class="top">ĐẢNG BỘ XÃ HÒA TRÍ</div>
-  <h1>ĐẢNG BỘ TRƯỜNG THCS HÒA TRÍ</h1>
-  <div class="sub">HỆ THỐNG HỒ SƠ NỘI BỘ PHỤC VỤ QUẢN LÝ, KIỂM TRA VÀ GIÁM SÁT</div>
+  <img class="banner-img" src="banner-dang-bo.png" alt="Đảng bộ Trường THCS Hòa Trí - Hệ thống hồ sơ nội bộ">
 </header>
 
 <div class="container">
