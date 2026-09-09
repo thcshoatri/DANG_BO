@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Hệ thống hồ sơ nội bộ Đảng bộ Trường THCS Hòa Trí</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,Helvetica,sans-serif;background:#f7f4ef;color:#3e2b22}
+header{background:linear-gradient(135deg,#8b0000,#c51f1f);color:#fff;text-align:center;padding:34px 18px 30px;box-shadow:0 4px 16px rgba(90,0,0,.25)}
+header .top{font-size:15px;font-weight:700;letter-spacing:1px}
+header h1{margin:10px 0 4px;font-size:30px;line-height:1.25}
+header .sub{font-size:15px;color:#ffe9a8;font-weight:700}
+.container{max-width:1150px;margin:28px auto;padding:0 18px}
+.notice{background:#fff8e6;border:1px solid #efd38c;border-radius:12px;padding:12px 15px;margin-bottom:18px;color:#6f5425;font-size:13px;line-height:1.5}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:18px}
+.card{position:relative;display:block;background:#fff;text-decoration:none;color:#3e2b22;border:1px solid #eadfd8;border-radius:16px;padding:24px;min-height:200px;box-shadow:0 5px 16px rgba(80,40,20,.08);transition:.2s}
+.card:hover{transform:translateY(-3px);box-shadow:0 9px 24px rgba(110,30,15,.14);border-color:#d7b19c}
+.icon{width:62px;height:62px;border-radius:50%;display:flex;align-items:center;justify-content:center;background:#fff2d9;font-size:30px;margin-bottom:14px}
+.num{position:absolute;right:18px;top:16px;background:#f7e5df;color:#9e1d13;font-size:12px;font-weight:800;padding:5px 9px;border-radius:999px}
+.title{font-size:18px;font-weight:800;color:#8f160f;line-height:1.35}
+.desc{font-size:13px;color:#725f55;line-height:1.55;margin-top:9px}
+.status{margin-top:14px;font-size:12px;font-weight:700;color:#9c6a00}
+.footer{margin-top:22px;text-align:center;font-size:12px;color:#7e6f67}
+@media(max-width:760px){.grid{grid-template-columns:1fr} header h1{font-size:23px}}
+</style>
+</head>
+<body>
+<header>
+  <div class="top">ĐẢNG BỘ XÃ HÒA TRÍ</div>
+  <h1>ĐẢNG BỘ TRƯỜNG THCS HÒA TRÍ</h1>
+  <div class="sub">HỆ THỐNG HỒ SƠ NỘI BỘ PHỤC VỤ QUẢN LÝ, KIỂM TRA VÀ GIÁM SÁT</div>
+</header>
+
+<div class="container">
+  <div class="notice">
+    Hệ thống web chỉ làm cổng điều hướng. Hồ sơ thực tế được lưu trên Google Drive với quyền truy cập hạn chế;
+    không thay thế Sổ tay đảng viên điện tử và không công khai tài liệu nội bộ trên GitHub.
+  </div>
+
+  <div class="grid">
+    
+    <a class="card pending" href="#" data-pending="true">
+      <div class="num">01</div>
+      <div class="icon">🏛️</div>
+      <div class="title">HỒ SƠ ĐẢNG ỦY - BCH ĐẢNG BỘ</div>
+      <div class="desc">Lãnh đạo, điều hành, quy chế, phân công, chương trình công tác, nghị quyết và báo cáo.</div>
+      <div class="status">Chưa gắn liên kết Drive</div>
+    </a>
+    
+    <a class="card pending" href="#" data-pending="true">
+      <div class="num">02</div>
+      <div class="icon">📚</div>
+      <div class="title">HỒ SƠ CÁC LĨNH VỰC CÔNG TÁC ĐẢNG</div>
+      <div class="desc">Tổ chức - cán bộ - đảng viên; chính trị tư tưởng; phát triển Đảng; đánh giá xếp loại; học tập và làm theo Bác.</div>
+      <div class="status">Chưa gắn liên kết Drive</div>
+    </a>
+    
+    <a class="card pending" href="#" data-pending="true">
+      <div class="num">03</div>
+      <div class="icon">✅</div>
+      <div class="title">HỒ SƠ ỦY BAN KIỂM TRA ĐẢNG ỦY</div>
+      <div class="desc">Chương trình, kế hoạch kiểm tra giám sát; hồ sơ kiểm tra, giám sát; hoạt động và báo cáo UBKT.</div>
+      <div class="status">Chưa gắn liên kết Drive</div>
+    </a>
+    
+    <a class="card pending" href="#" data-pending="true">
+      <div class="num">04</div>
+      <div class="icon">🗂️</div>
+      <div class="title">HỒ SƠ CÁC CHI BỘ TRỰC THUỘC</div>
+      <div class="desc">Không gian quản trị hồ sơ, minh chứng phục vụ theo dõi và kiểm tra đối với 03 chi bộ trực thuộc.</div>
+      <div class="status">Chưa gắn liên kết Drive</div>
+    </a>
+    
+    <a class="card pending" href="#" data-pending="true">
+      <div class="num">05</div>
+      <div class="icon">🔎</div>
+      <div class="title">HỒ SƠ PHỤC VỤ KIỂM TRA - MINH CHỨNG</div>
+      <div class="desc">Tập hợp minh chứng theo từng cuộc kiểm tra; ưu tiên sử dụng lối tắt đến hồ sơ gốc để tránh trùng lặp.</div>
+      <div class="status">Chưa gắn liên kết Drive</div>
+    </a>
+    
+  </div>
+
+  <div class="footer">Đảng bộ Trường THCS Hòa Trí • Hệ thống nội bộ</div>
+</div>
+
+<script>
+document.querySelectorAll('.pending').forEach(card => {
+  card.addEventListener('click', function(e) {
+    e.preventDefault();
+    alert('Mục này chưa được gắn liên kết Google Drive.');
+  });
+});
+</script>
+</body>
+</html>
